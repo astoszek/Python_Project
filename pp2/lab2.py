@@ -1,0 +1,25 @@
+print("      *     ")
+print("     *  *")
+print("    *    *")
+print("   *      *")
+print("  *        *")
+print(" *          *")
+print(" ****    ****")
+print("    *    *")
+print("    *    *")
+print("    *    *")
+print("    ******")
+
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+
+print("Te trzy linie tekstu", "zostały wyświetlone", "za pomocą jednej instrukcji Python", sep="\n")
+
+print(" ")
+print(" ")
+print(" ")
+
+print("Będę uważał na zajęciach Python\n" *100)
+print(" ")
