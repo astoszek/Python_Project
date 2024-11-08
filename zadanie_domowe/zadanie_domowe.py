@@ -86,3 +86,4 @@ print("Saldo po drugim kwartale przy 8,5% oprocentowaniu to", ((deposit - own_fu
 print("Saldo po trzecim kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart),"zł."))
 print("Saldo po roku przy 8,5% oprocentowaniu to", ((deposit - own_funds)  + 30_000.), "zł.")
 
+print("")
