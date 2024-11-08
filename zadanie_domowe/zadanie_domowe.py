@@ -75,15 +75,15 @@ print("")
 
 own_funds = 30_000 #inwestowane środki
 deposit = own_funds
-roczne = 1.085
+roczne = 1.0825
 
 deposit *= roczne
 zysk_kwart = (deposit - own_funds) / 4
 zysk_roczny = zysk_kwart * 4
 
 print("Zysk kwartalny", zysk_kwart ,"zł")
-print("Saldo po pierwszym kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 ),"zł.")
-print("Saldo po drugim kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + zysk_kwart),"zł.")
-print("Saldo po trzecim kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart)), "zł.")
-print("Saldo po roku przy 8,5% oprocentowaniu to", ((deposit - own_funds)  + 30_000.), "zł.")
+print("Saldo po pierwszym kwartale przy 8,25% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 ),"zł.")
+print("Saldo po drugim kwartale przy 8,25% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + zysk_kwart),"zł.")
+print("Saldo po trzecim kwartale przy 8,25% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart)), "zł.")
+print("Saldo po roku przy 8,25% oprocentowaniu to", ((deposit - own_funds)  + 30_000.), "zł.")
 print("Zysk roczny-" , zysk_roczny ,"zł")
