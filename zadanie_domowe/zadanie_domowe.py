@@ -42,13 +42,14 @@ roczne = 1.075
 
 deposit *= roczne
 zysk_kwart = (deposit - own_funds) / 4
-
+zysk_roczny = zysk_kwart * 4
 
 print("Zysk kwartalny", zysk_kwart ,"zł")
 print("Saldo po pierwszym kwartale przy 7,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 ),"zł.")
 print("Saldo po drugim kwartale przy 7,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + zysk_kwart),"zł.")
 print("Saldo po trzecim kwartale przy 7,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart)),"zł.")
 print("Saldo po roku przy 7,5% oprocentowaniu to", ((deposit - own_funds)  + 30_000), "zł.")
+print("Zysk roczny-" , zysk_roczny ,"zł")
 
 print("")
 print("")
@@ -60,14 +61,14 @@ roczne = 1.080
 
 deposit *= roczne
 zysk_kwart = (deposit - own_funds) / 4
-
+zysk_roczny = zysk_kwart * 4
 
 print("Zysk kwartalny", zysk_kwart ,"zł")
 print("Saldo po pierwszym kwartale przy 8% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 ),"zł.")
 print("Saldo po drugim kwartale przy 8% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + zysk_kwart),"zł.")
-print("Saldo po trzecim kwartale przy 8% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart),"zł."))
+print("Saldo po trzecim kwartale przy 8% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart)),"zł.")
 print("Saldo po roku przy 8% oprocentowaniu to", ((deposit - own_funds)  + 30_000), "zł.")
-
+print("Zysk roczny-" , zysk_roczny ,"zł")
 print("")
 print("")
 print("")
@@ -78,10 +79,11 @@ roczne = 1.085
 
 deposit *= roczne
 zysk_kwart = (deposit - own_funds) / 4
-
+zysk_roczny = zysk_kwart * 4
 
 print("Zysk kwartalny", zysk_kwart ,"zł")
 print("Saldo po pierwszym kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 ),"zł.")
 print("Saldo po drugim kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + zysk_kwart),"zł.")
 print("Saldo po trzecim kwartale przy 8,5% oprocentowaniu to", ((deposit - own_funds) / 4 +30_000 + (2 * zysk_kwart)), "zł.")
 print("Saldo po roku przy 8,5% oprocentowaniu to", ((deposit - own_funds)  + 30_000.), "zł.")
+print("Zysk roczny-" , zysk_roczny ,"zł")
