@@ -1,1 +1,14 @@
-print(123.345)
+print(0x9F + 0b11101 + 0o777 + 134)
+
+print("")
+
+print(type("100.5"))
+print(type(2.0))
+print(type('.0eeee-100'))
+print(type(0e-100))
+print(type(528))
+print(type(False))
+print("")
+
+print("To jest znak tabulatora", '"\\t"' "" "a to nowej linii" '"\\n"')
+
