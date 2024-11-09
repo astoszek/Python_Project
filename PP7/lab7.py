@@ -1,18 +1,11 @@
 # 1.Napisz skrypt sprawdzający czy pierwiastek kwadratowy z liczby całkowitej
 # pobranej od użytkownika jest także liczbą całkowitą.
 
-import math
-
-# Pobranie liczby całkowitej od użytkownika
-liczba = int(input("Podaj liczbę całkowitą: "))
-
-# Sprawdzenie, czy pierwiastek kwadratowy jest liczbą całkowitą
-pierwiastek = math.sqrt(liczba)
-
-if pierwiastek.is_integer():
-    print("Pierwiastek kwadratowy z liczby", liczba , "jest liczbą całkowitą.")
+number = int(input("Podaj liczbę całkowitą: "))
+if number  ** (0.5) % 1 == 0:
+    print("Pierwiastek kwadratowy z liczby", number, "jest liczbą całkowitą.")
 else:
-    print("Pierwiastek kwadratowy z liczby", liczba , "nie jest liczbą całkowitą.")
+    print("Pierwiastek kwadratowy z liczby", number, "nie jest liczbą całkowitą.")
 
 # 2. Napisz skrypt wyznaczający ocenę jaką otrzyma student, ze względu na ilość otrzymanych punków z kolokwium:
 # • ocena bardzo dobra (5,0), jeżeli student otrzymał 95 lub więcej punktów,
@@ -23,4 +16,16 @@ else:
 # • wszystkie wyniki równe 50 i mniej punktów wiążą się z otrzymaniem oceny niedostatecznej (2.0)
 
 number =  int(input("Podaj wynik:  "))
-print("Ocena: ")
+if number >= 95:
+    print("Student otrzymał ocene bardzo dobrą")
+elif number > 84:
+    print("Student otrzymał ocene ponad dobrą")
+elif number > 70:
+    print("Student otrzymał ocene dobrą")
+elif number > 60:
+    print("Student otrzymał ocene dość dobrą")
+elif number > 50:
+    print("Student otrzymał ocene dostateczną")
+elif number <= 50:
+    print("Student otrzymał ocene niedostateczną")
+
