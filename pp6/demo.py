@@ -1,7 +1,7 @@
 # konwersja typów
 
 number = int("2")
-print(number * 3)
+print(2 * int("23"))
 
 temp = float("36")
 print(temp)
