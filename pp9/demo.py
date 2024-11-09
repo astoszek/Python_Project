@@ -37,8 +37,58 @@
 
 
 
-a, b, c = 2, 3, 4
+#a, b, c = 2, 3, 4
 
-if a < b and b < c:
-    print("!!!")
+#if a < b and b < c:
+#    print("!!!")
 
+#a = 5
+#b = 3
+
+# koniunkcja bitowa
+#print(a, "&", b, "=", a & b)
+#print("{:08b}".format(a))
+#print("{:08b}".format(b))
+#print("{:08b}".format(b))
+#print("-" * 8)
+#print("{:08b}".format(a & b))
+
+a = 5
+b = 3
+
+# alternatywa bitowa
+print(a, "|", b, "=", a | b)
+print("{:08b}".format(a))
+print("{:08b}".format(b))
+print("-" * 8)
+print("{:08b}".format(a | b))
+print("")
+
+# alternatywa rozłączna bitowa
+print(a, "^", b, "=", a ^ b)
+print("{:08b}".format(a))
+print("{:08b}".format(b))
+print("-" * 8)
+print("{:08b}".format(a ^ b))
+print("")
+# przesunięcie bitowe w prawo
+print(a, ">>", b, "=", a >> b)
+print("{:08b}".format(a))
+print("-" * 8)
+print("{:08b}".format(a >> b))
+print("")
+
+# przesunięcie bitowe w lewo
+print(a, "<<", b, "=", a << b)
+print("{:08b}".format(a))
+print("-" * 8)
+print("{:08b}".format(a << b))
+print("")
+
+
+# negacja bitowa
+print("~" +str(a), "=", ~a)
+print("{:08b}".format(a))
+print("-" * 8)
+print("{:08b}".format(~a))
+print("")
