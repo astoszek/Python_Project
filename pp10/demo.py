@@ -32,3 +32,4 @@ fruits = ["apple", "banana", "cherry"]
 print(fruits[2])
 
 print(fruits[-1], fruits[-2])
+sd
