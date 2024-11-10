@@ -27,7 +27,7 @@ print(numbers)
 
 print(numbers[0], numbers[1])
 #           -3        -2        -1
-#           -0        -1        -2
+#           -0        -1        -2A
 fruits = ["apple", "banana", "cherry"]
 print(fruits[2])
 
