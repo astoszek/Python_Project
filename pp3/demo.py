@@ -42,7 +42,7 @@ print("tekst ze \nznakiem nowej linii")
 
 print("I'm Monty Python.")
 
-print("><", ">\t<", ">\t\t\t", sep="\n")
+print("><", ">\t<", ">\t\t\t<", sep="\n")
 
 print(type(" "))
 
