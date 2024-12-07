@@ -3,6 +3,6 @@
 
 liczba = int(input("Podaj liczbe: "))
 
-for i in range(liczba):
-    if (i) % 3 == 0:
-        print("Te liczby to: ", i)
+for i in range(liczba+1):
+    if (i) % 3 == 0 and i > 0:
+        print("Te liczby to: ", i, end=" ")
