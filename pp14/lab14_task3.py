@@ -37,11 +37,11 @@ def count_points(players, win_points):
         print("\nTura", counter)
         for player in players.keys():
             player_points = int(input("Podaj punkty dla gracza - {}".format(player)))
-            players[player].update({player_points: counter})
+            players[player].append(player_points)
             if is_winner(players, win_points):
                 return player
         counter += 1
-    return "winner"
+        return "winner"
 
 
 def show_results(players, winner):
