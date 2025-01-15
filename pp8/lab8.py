@@ -13,6 +13,6 @@ znak = input("Podaj znak: ")
 
 for i in range(rozmiar):
     for j in range(rozmiar):
-        print(rozmiar , end="")
+        print(znak , end="")
     print()
 
