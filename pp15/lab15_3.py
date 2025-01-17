@@ -51,6 +51,6 @@ def show_results(players, winner):
         print(player, "->", points )
 
 players = define_players()
-win_points = define_win_pointas()
+win_points = define_win_points()
 winner = count_points(players, win_points)
 print(players)
