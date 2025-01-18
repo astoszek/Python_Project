@@ -18,9 +18,11 @@ def get_user_numbers():
             number = int(input("Podaj {} liczbę (1-49): ".format(counter)))
             if number in user_numbers:
                 print("Podałeś już tą liczbę! Podaj inną liczbę!")
+                continue
             if number < 1 or number > 49:
                 print("Należy podać liczbę z przedziało 1-49!")
-        except:
+                continue
+        except ValueError:
             print("To nie jest liczba")
             continue
         user_numbers.append(number)
