@@ -4,6 +4,8 @@ def print_char(char="*", repeat=10, vertical=False):
             print(char)
         else:
             print(char + " ", end="")
+    if not vertical:
+        print()
     print()
 
 print_char()

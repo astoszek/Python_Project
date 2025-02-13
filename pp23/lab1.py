@@ -20,4 +20,4 @@ persons.append(Person("Tomek", 55))
 persons.append(Person("Monika", 14))
 
 for person in persons:
-    person.introduce()z
+    person.introduce()

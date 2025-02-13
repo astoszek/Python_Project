@@ -7,7 +7,9 @@ e = 20
 print(a,b,c,d,e)
 
 numbers = [3, 2, 11 ,2, 20]
+numbers2 = [ a, b, c, d, e]
 print (numbers)
+print (numbers2 )
 
 fruits = ["apple", "orange", "pear"]
 print(fruits)
