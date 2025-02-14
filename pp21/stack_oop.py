@@ -55,7 +55,6 @@
 # print(stack2.pop())
 
 
-
 class Stack:  # definiowanie klasy stosu
     def __init__(self):
         self.__stack_list = []
@@ -68,14 +67,40 @@ class Stack:  # definiowanie klasy stosu
         del self.__stack_list[-1]
         return item
 
-class StuckSum(Stack):
-    def getSum(self):
-        return sum(self._Stack__stack_list)
+    def empty(self):
+        return len(self.__stack_list) == 0
 
-stack = StuckSum()
-stack.push(10)
-stack.push(20)
-stack.push(30)
-print(stack.getSum())
+    def size(self):
+        return len(self.__stack_list)
+
+    def top(self):
+        return self.__stack_list[-1]
+
+
+stack = Stack()
+print("Jest pustry?", stack.empty())
+
+stack.push("Ala")
+stack.push("Tomek")
+stack.push("Agata")
+
+print("Jest pustry?", stack.empty())
+print("Ile elementów?", stack.size())
+print("Na samej górze:", stack.top())
+
+print(stack.pop())
+print(stack.pop())
 print(stack.pop())
 
+
+# class StuckSum(Stack):
+#     def getSum(self):
+#         return sum(self._Stack__stack_list)
+#
+#
+# stack = StuckSum()
+# stack.push(10)
+# stack.push(20)
+# stack.push(30)
+# print(stack.getSum())
+# print(stack.pop())

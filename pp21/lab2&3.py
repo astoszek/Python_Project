@@ -17,7 +17,10 @@ for i in range(1, 101):
 
 
 for _ in range(1,101):
-    s2.push(i)
+    s2.push(s1.pop())
 
 for _ in range(100):
-    print(s3.pop())
+    s3.push(s2.pop())
+
+for _ in range(100):
+    print(s3.pop(), end=" ")
