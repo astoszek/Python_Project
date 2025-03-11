@@ -1,8 +1,17 @@
-import random
+# a = 9
+# b = 11
+# 
+# print(a >= b)
+# 
+# print(2 == 2)
+# 
 
-number = random.randint(1, 10)
-msg = "Zgadnij jaka liczbe mam na myśli od 1 do 10: "
-guess = int(input(msg))
+number = 3
 
-if guess == number:
-    print("Gratulacje")
+
+if number > 3:
+    print("Liczba większa niż 3")
+elif number <3:
+    print(" nie jest wieksza")
+else:
+    print("Równa 0")
