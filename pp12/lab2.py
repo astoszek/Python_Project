@@ -33,7 +33,7 @@ def diagonal_lenght(a, b):
     return (a ** 2 + b ** 2) ** 0.5
 
 def show_result(a, b):
-    print("Prostoką o bokach {} i {}".format(a, b))
+    print("Prostokąt o bokach {} i {}".format(a, b))
     print("Obwód:", perimeter(a,b))
     print("Pole powierzchni: ", surface_area(a,b))
     print("Dlugośc przekątnej: ", diagonal_lenght(a,b))
